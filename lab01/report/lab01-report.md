@@ -38,11 +38,11 @@ o Шифроалфавит: v g d e g z i ...
 ## Слайд 5: Реализация на Python
 
 
-![шифр Цезаря](Screenshot%201.png){ #fig:001 width=70% height=70%}
+![шифр Цезаря](Screenshot%201.png){ #fig:001 width=50% height=50%}
 
 
 ### Слайд 6: Результаты выполнения
-![шифр Атбаш](Screenshot%202.png){ #fig:002 width=70% height=70%}
+![шифр Атбаш](Screenshot%202.png){ #fig:002 width=50% height=50%}
 Практическая демонстрация корректности шифрования и расшифрования
 
 ## Слайд 7: Преимущества и недостатки
@@ -87,6 +87,7 @@ header-includes:
 
 ## Контрольный пример
 
-![шифр Цезаря](Screenshot%201.png){ #fig:001 width=70% height=70%}
+![шифр Цезаря](Screenshot%201.png){ #fig:001 width=50% height=50%}
 
-![шифр Атбаш](image/Screenshot%202.png){ #fig:002 width=70% height=70%}
+![шифр Атбаш](image/Screenshot%202.png){ #fig:002 width=50% height=50%}
+
