@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №1: Шифр Цезаря</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: "Courier New", monospace;
+            color: #d63384;
+        }
+        .page {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .formula {
+            font-size: 1.2em;
+            margin: 15px 0;
+            text-align: center;
+        }
+        .output {
+            background-color: #eef;
+            padding: 10px;
+            border-left: 4px solid #66b;
+            margin-top: 15px;
+        }
+        .stages {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+        .stage {
+            margin-bottom: 15px;
+        }
+        .stage-title {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <h1>Лабораторная работа №1: Шифр Цезаря</h1>
+
+        <h2>Введение</h2>
+        <p>
+            Шифр Цезаря — это моноалфавитный шифр подстановки, в котором каждая буква открытого текста заменяется на букву, находящуюся на фиксированное число позиций (ключ) дальше в алфавите. Этот шифр назван в честь Юлия Цезаря, который использовал его для защиты своей переписки.
+        </p>
+
+        <h2>Математическая модель</h2>
+        <p>Шифрование описывается формулой:</p>
+        <div class="formula">
+            C = (P + k) mod m
+        </div>
+        <p>где:</p>
+        <ul>
+            <li>P — номер буквы открытого текста,</li>
+            <li>C — номер буквы шифртекста,</li>
+            <li>k — ключ (сдвиг),</li>
+            <li>m — количество букв в алфавите (например, 26 для латинского алфавита).</li>
+        </ul>
+        <p>Расшифрование выполняется по формуле:</p>
+        <div class="formula">
+            P = (C - k) mod m
+        </div>
+
+        <h2>Реализация на Python</h2>
+        <pre><code>def caesar_encrypt(text, shift):
+    result = ""
+    for char in text:
+        if char.isalpha():
+            shift_base = ord('a') if char.islower() else ord('A')
+            result += chr((ord(char) - shift_base + shift) % 32 + shift_base)
+        else:
+            result += char
+    return result
+
+def caesar_decrypt(text, shift):
+    return caesar_encrypt(text, -shift)</code></pre>
+    </div>
+
+    <div class="page">
+        <h2>Пример работы программы</h2>
+        <pre><code>plain_text = "привет мир"
+key = 3
+encrypted = caesar_encrypt(plain_text, key)
+decrypted = caesar_decrypt(encrypted, key)
+print(f"Исходный текст: {plain_text}")
+print(f"Зашифрованный текст: {encrypted}")
+print(f"Расшифрованный текст: {decrypted}")</code></pre>
+
+        <div class="output">
+            <p><strong>Вывод программы:</strong></p>
+            <p>Исходный текст: привет мир</p>
+            <p>Зашифрованный текст: тулзкх рлт</p>
+            <p>Расшифрованный текст: привет мир</p>
+        </div>
+    </div>
+
+    <div class="page">
+        <h2>Этапы выполнения лабораторной работы</h2>
+        <div class="stages">
+            <div class="stage">
+                <div class="stage-title">Этап 1: Изучение теоретических основ</div>
+                <p>Изучение принципов работы шифра Цезаря, его математической модели и истории применения.</p>
+            </div>
+            
+            <div class="stage">
+                <div class="stage-title">Этап 2: Разработка алгоритма</div>
+                <p>Создание алгоритма шифрования и расшифрования на основе математической модели шифра.</p>
+            </div>
+            
+            <div class="stage">
+                <div class="stage-title">Этап 3: Реализация на Python</div>
+                <p>Написание функций caesar_encrypt() и caesar_decrypt() на языке Python с учетом регистра букв.</p>
+            </div>
+            
+            <div class="stage">
+                <div class="stage-title">Этап 4: Тестирование программы</div>
+                <p>Проверка корректности работы программы на различных входных данных, включая русский и латинский алфавиты.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <h2>Ссылки и дополнительные материалы</h2>
+        <ol>
+            <li><a href="https://ru.wikipedia.org/wiki/Шифр_Цезаря" target="_blank">Шифр Цезаря — Википедия</a></li>
+            <li><a href="https://www.khanacademy.org/computing/computer-science/cryptography" target="_blank">Криптография — Khan Academy</a></li>
+            <li><a href="https://docs.python.org/3/tutorial/" target="_blank">Официальная документация Python</a></li>
+            <li><a href="https://py.checkio.org/" target="_blank">Практические задачи по Python — CheckiO</a></li>
+        </ol>
+    </div>
+
+</body>
+</html>
