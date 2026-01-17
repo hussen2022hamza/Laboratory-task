@@ -36,7 +36,7 @@ o Шифроалфавит: v g d e g z i ...
 • Процесс: замена символа на соответствующий символ из второй строки
 
 ## Слайд 5: Реализация на Python
-## Контрольный пример
+
 
 ![шифр Цезаря](image/01.png){ #fig:001 width=70% height=70%}
 
@@ -96,5 +96,6 @@ header-includes:
 
 1. [Шифр Цезаря]([https://habr.com/ru/post/534058/](https://github.com/hussen2022hamza/Laboratory-task/blob/main/lab01/report/image/Screenshot%201.png))
 2. [Шифр Атбаш]([https://habr.com/ru/post/444176/](https://github.com/hussen2022hamza/Laboratory-task/blob/main/lab01/report/image/Screenshot%201.png))
+
 
 
