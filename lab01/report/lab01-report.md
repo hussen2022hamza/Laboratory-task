@@ -37,7 +37,7 @@ o Шифроалфавит: v g d e g z i ...
 
 
 ![шифр Цезаря](Screenshot%201.png){ #fig:001 width=50% height=50%}
-
+![шифр Цезаря](Screenshot%201.png){ #fig:001 width=50% height=50%}
 
 ### Слайд 6: Результаты выполнения
 ![шифр Атбаш](Screenshot%202.png){ #fig:002 width=50% height=50%}
@@ -70,6 +70,7 @@ o Шифроалфавит: v g d e g z i ...
 ![шифр Цезаря](Screenshot%201.png){ #fig:001 width=50% height=50%}
 
 ![шифр Атбаш](image/Screenshot%202.png){ #fig:002 width=50% height=50%}
+
 
 
 
