@@ -15,23 +15,38 @@
   def caesar_encrypt(text, shift):
     result = ""
     
- for char in text:
+      for char in text:
  
- if char.isalpha():
- shift_base = ord('а') if char.islower() else ord('А')
- result += chr((ord(char) - shift_base + shift) % 32 + shift_base)
- else:
- result += char
+      if char.isalpha():
+ 
+        shift_base = ord('а') if char.islower() else ord('А')
+ 
+        result += chr((ord(char) - shift_base + shift) % 32 + shift_base)
+ 
+      else:
+ 
+     result += char
+ 
  return result
-def caesar_decrypt(text, shift):
+ 
+ def caesar_decrypt(text, shift):
+
  return caesar_encrypt(text, -shift)
+ 
  plain_text = "привет мир"
+ 
 key = 3
+
 encrypted = caesar_encrypt(plain_text, key)
+
 decrypted = caesar_decrypt(encrypted, key)
+
 print(f"Исходный текст: {plain_text}")
+
 print(f"Зашифрованный текст: {encrypted}")
+
 print(f"Расшифрованный текст: {decrypted}")
+
 ## Шифрование
 
 Шифрование – это такое преобразование исходного сообщения, которое не позволит всяким нехорошим людям прочитать данные, если они это сообщение перехватят. Делается это преобразование по специальным математическим и логическим алгоритмам.
@@ -48,5 +63,6 @@ print(f"Расшифрованный текст: {decrypted}")
 2. Шнайер Б. Прикладная криптография. — М.: Триумф, 2002.
 3. Алферов А.П. и др. Основы криптографии. — М.: Гелиос АРВ, 2002.
 4. https://ru.wikipedia.org/wiki/Шифр_Цезаря
+
 
 
