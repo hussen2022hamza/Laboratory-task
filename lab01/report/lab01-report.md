@@ -92,10 +92,6 @@ header-includes:
 ![шифр Атбаш](image/Screenshot%201.png){ #fig:002 width=70% height=70%}
 
 
-# Список литературы{.unnumbered}
-
-1. [Шифр Цезаря](https://habr.com/ru/post/534058/)
-2. [Шифр Атбаш](https://habr.com/ru/post/444176/)
 
 
 
