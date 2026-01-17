@@ -1,27 +1,4 @@
 ---
-## Front matter
-lang: ru-RU
-title: Шифр простой замены
-author: Игорь Старшинов
-institute: Российский Университет Дружбы Народов
-date: 14 сентября, 2025, Москва, Россия
-
-## Formatting
-mainfont: PT Serif
-romanfont: PT Serif
-sansfont: PT Sans
-monofont: PT Mono
-toc: false
-slide_level: 2
-theme: metropolis
-header-includes: 
- - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
- - '\makeatletter'
- - '\beamer@ignorenonframefalse'
- - '\makeatother'
-aspectratio: 43
-section-titles: true
-
 ---
 
 # Цели и задачи
@@ -68,5 +45,6 @@ x = (y - k + n) mod n
 # Выводы
 
 ## Результаты выполнения лабораторной работы
+
 
 Изучили алгоритмы шифрования Цезаря и Атбаш.
