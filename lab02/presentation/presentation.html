@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шифры перестановки - Лабораторная работа №2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a2980, #26d0ce);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .presentation-title {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .presentation-title h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .presentation-title h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #ffd700;
+        }
+        
+        .presentation-title h3 {
+            font-size: 1.5rem;
+            color: #4dffea;
+        }
+        
+        .slides-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .slide {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+            min-height: 300px;
+        }
+        
+        .slide:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+        }
+        
+        .slide-header {
+            background: linear-gradient(to right, #2c3e50, #4a6491);
+            color: white;
+            padding: 15px;
+            border-radius: 10px 10px 0 0;
+            margin: -25px -25px 20px -25px;
+        }
+        
+        .slide-header h2 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+        
+        .slide-content {
+            flex-grow: 1;
+            padding: 10px 0;
+            font-size: 1.1rem;
+        }
+        
+        .slide-content ul, .slide-content ol {
+            padding-left: 20px;
+            margin: 15px 0;
+        }
+        
+        .slide-content li {
+            margin-bottom: 10px;
+        }
+        
+        .code-example {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 15px 0;
+            overflow-x: auto;
+        }
+        
+        .output-example {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid #4caf50;
+            margin: 15px 0;
+        }
+        
+        .algorithm-steps {
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .algorithm-steps h3 {
+            color: #1565c0;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #1565c0;
+            padding-bottom: 5px;
+        }
+        
+        .conclusion {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            margin-top: 30px;
+        }
+        
+        .conclusion h2 {
+            color: #1a2980;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .conclusion p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+        }
+        
+        .nav-button {
+            background: #1a2980;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background 0.3s;
+        }
+        
+        .nav-button:hover {
+            background: #26d0ce;
+        }
+        
+        .page-counter {
+            color: white;
+            font-size: 1.2rem;
+            align-self: center;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 1.1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .slides-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .presentation-title h1 {
+                font-size: 2rem;
+            }
+            
+            .slide {
+                min-height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- صفحة العنوان -->
+        <div class="presentation-title">
+            <h1>Шифры перестановки</h1>
+            <h2>Маршрутная перестановка, Решётка Кардано, Шифр Виженера</h2>
+            <h3>Хамза Хуссен</h3>
+            <p>Лабораторная работа №2</p>
+        </div>
+        
+        <!-- الشرائح -->
+        <div class="slides-container">
+            <!-- الشريحة 1: هدف العمل -->
+            <div class="slide">
+                <div class="slide-header">
+                    <h2>Цель работы</h2>
+                </div>
+                <div class="slide-content">
+                    <p>Изучение трёх базовых технологий шифрования:</p>
+                    <ul>
+                        <li>Маршрутная перестановка символов.</li>
+                        <li>Решётка Кардано.</li>
+                        <li>Шифр Виженера (полиалфавитный метод).</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- الشريحة 2: шифр маршрутной перестановки -->
+            <div class="slide">
+                <div class="slide-header">
+                    <h2>Шифр маршрутной перестановки</h2>
+                </div>
+                <div class="slide-content">
+                    <p>Основан на геометрических фигурах (таблицах).</p>
+                    <p>Текст записывается по одному маршруту, считывается по другому.</p>
+                    <div class="algorithm-steps">
+                        <h3>Пример работы:</h3>
+                        <p>Заполнение таблицы по горизонтали, чтение по вертикали.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- الشريحة 3: реализация маршрутной перестановки -->
+            <div class="slide">
+                <div class="slide-header">
+                    <h2>Реализация маршрутной перестановки (Python)</h2>
+                </div>
+                <div class="slide-content">
+                    <p>Основные шаги алгоритма:</p>
+                    <ol>
+                        <li>Ввод текста, параметров таблицы (n, m) и пароля.</li>
+                        <li>Заполнение таблицы символами текста.</li>
+                        <li>Использование пароля для перестановки столбцов.</li>
+                    </ol>
+                    <div class="output-example">
+                        <p><strong>Пример вывода:</strong> "ВНаараааааааmТаасВааеаеа"</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- الشريحة 4: шифр Кардано -->
+            <div class="slide">
+                <div class="slide-header">
+                    <h2>Шифр Кардано (решётка)</h2>
+                </div>
+                <div class="slide-content">
+                    <p>Инструмент для кодирования/декодирования с помощью карточки с прорезями.</p>
+                    <p>Таблица поворачивается 4 раза для полного заполнения.</p>
+                    <p>Предложен Джероламо Кардано (1550 год).</p>
+                </div>
+            </div>
+            
+            <!-- الشريحة 5: реализация решётки Кардано -->
+            <div class="slide">
+                <div class="slide-header">
+                    <h2>Реализация решётки Кардано (Python)</h2>
+                </div>
+                <div class="slide-content">
+                    <p>Основные шаги алгоритма:</p>
+                    <ol>
+                        <li>Генерация вращающейся матрицы размером k×k.</li>
+                        <li>Заполнение прорезей символами сообщения.</li>
+                        <li>Использование пароля для шифрования.</li>
+                    </ol>
+                    <div class="output-example">
+                        <p><strong>Пример вывода:</strong> "ооооддвоспги"</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- الشريحة 6: шифр Виженера -->
+            <div class="slide">
+                <div class="slide-header">
+                    <h2>Шифр Виженера</h2>
+                </div>
+                <div class="slide-content">
+                    <p>Полиалфавитный шифр с использованием ключевого слова.</p>
+                    <p>Использует таблицу Tabula Recta (26 алфавитов).</p>
+                    <p>Устойчив к частотному анализу.</p>
+                    <p>Описан Джован Баттиста Беллазо (1553), известен по имени Блеза Виженера.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- قسم الاستنتاجات -->
+        <div class="conclusion">
+            <h2>Выводы работы</h2>
+            <p>Шифры перестановки — классические методы изменения порядка символов.</p>
+            <p>Маршрутная перестановка демонстрирует использование таблиц.</p>
+            <p>Решётка Кардано — метод многоэтапного вращающегося шифрования.</p>
+            <p>Шифр Виженера — переход к полиалфавитным системам, повышающий стойкость.</p>
+        </div>
+        
+        <!-- قسم الأسئلة والخاتمة -->
+        <div class="conclusion">
+            <h2>Вопросы и заключение</h2>
+            <p>Криптографические методы остаются актуальными для изучения основ защиты информации.</p>
+            <p>Реализация на Python позволяет наглядно понять алгоритмы.</p>
+            <p style="text-align: center; font-weight: bold; margin-top: 20px;">Спасибо за внимание!</p>
+        </div>
+        
+        <!-- التنقل بين الصفحات -->
+        <div class="navigation">
+            <button class="nav-button" onclick="prevSlide()">← Предыдущий</button>
+            <div class="page-counter">Слайд 1 из 6</div>
+            <button class="nav-button" onclick="nextSlide()">Следующий →</button>
+        </div>
+        
+        <!-- التذييل -->
+
+    </div>
+    
+    <script>
+        let currentSlide = 1;
+        const totalSlides = 6;
+        
+        function updateSlideCounter() {
+            document.querySelector('.page-counter').textContent = `Слайд ${currentSlide} из ${totalSlides}`;
+            
+            // تحديث تظليل الشرائح النشطة
+            document.querySelectorAll('.slide').forEach((slide, index) => {
+                if (index === currentSlide - 1) {
+                    slide.style.boxShadow = '0 15px 35px rgba(0, 0, 0, 0.4)';
+                    slide.style.border = '2px solid #26d0ce';
+                } else {
+                    slide.style.boxShadow = '0 8px 25px rgba(0, 0, 0, 0.2)';
+                    slide.style.border = 'none';
+                }
+            });
+        }
+        
+        function nextSlide() {
+            if (currentSlide < totalSlides) {
+                currentSlide++;
+                updateSlideCounter();
+                scrollToCurrentSlide();
+            }
+        }
+        
+        function prevSlide() {
+            if (currentSlide > 1) {
+                currentSlide--;
+                updateSlideCounter();
+                scrollToCurrentSlide();
+            }
+        }
+        
+        function scrollToCurrentSlide() {
+            const slides = document.querySelectorAll('.slide');
+            if (slides[currentSlide - 1]) {
+                slides[currentSlide - 1].scrollIntoView({behavior: 'smooth', block: 'start'});
+            }
+        }
+        
+        // تهيئة العدّاد عند تحميل الصفحة
+        document.addEventListener('DOMContentLoaded', function() {
+            updateSlideCounter();
+            
+            // إضافة إمكانية التنقل باستخدام مفاتيح الأسهم
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'ArrowRight') {
+                    nextSlide();
+                } else if (event.key === 'ArrowLeft') {
+                    prevSlide();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
