@@ -19,16 +19,16 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y pandoc texlive-xetex
       
       - name: Convert presentation.md to HTML
-        run: pandoc presentation.md -s --self-contained -o presentation.html
+        run: pandoc lab01/presentation/presentation.md -s --self-contained -o presentation.html
       
       - name: Convert presentation.md to PDF
-        run: pandoc presentation.md -o presentation.pdf --pdf-engine=xelatex
+        run: pandoc lab01/presentation/presentation.md -o presentation.pdf --pdf-engine=xelatex
       
       - name: Convert report.md to HTML
-        run: pandoc report.md -s --self-contained -o report.html
+        run: pandoc lab01/report/report.md -s --self-contained -o report.html
       
       - name: Convert report.md to PDF
-        run: pandoc report.md -o report.pdf --pdf-engine=xelatex
+        run: pandoc lab01/report/report.md -o report.pdf --pdf-engine=xelatex
       
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
