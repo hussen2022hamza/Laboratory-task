@@ -1,0 +1,37 @@
+name: Auto generate PDF and HTML
+
+on:
+  push:
+    paths:
+      - 'presentation.md'
+      - 'report.md'
+    branches:
+      - main
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Install Pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc texlive-xetex
+      
+      - name: Convert presentation.md to HTML
+        run: pandoc presentation.md -s --self-contained -o presentation.html
+      
+      - name: Convert presentation.md to PDF
+        run: pandoc presentation.md -o presentation.pdf --pdf-engine=xelatex
+      
+      - name: Convert report.md to HTML
+        run: pandoc report.md -s --self-contained -o report.html
+      
+      - name: Convert report.md to PDF
+        run: pandoc report.md -o report.pdf --pdf-engine=xelatex
+      
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Auto update from markdown files"
+          branch: ${{ github.ref }}
+          file_pattern: "*.html *.pdf"
