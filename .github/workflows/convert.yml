@@ -1,6 +1,7 @@
 name: Auto generate PDF and HTML
 
 on:
+  workflow_dispatch:    # هذي السطر الجديد - يخلي زر Run workflow يظهر
   push:
     paths:
       - 'presentation.md'
