@@ -1,0 +1,3650 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.17)  17 MAR 2026 21:00
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./report.tex
+(report.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrreprt.cls
+Document Class: scrreprt 2026/02/02 v3.49.2 KOMA-Script document class (report)
+
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-dependent
+ basics and keyval usage)
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independen
+t basics and keyval usage)
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2026/02/02 v3.49.2 KOMA-Script package (file load hooks)
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
+Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hook
+s)
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2026/02/02 v3.49.2 KOMA-Script package (logo)
+))) (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 370.
+)) (C:\Program Files\MiKTeX\tex/latex/koma-script\tocbasic.sty
+Package: tocbasic 2026/02/02 v3.49.2 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip49
+\scr@dte@tocline@numbox=\box53
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 143.
+Package scrreprt Info: You've used standard option `12pt'.
+(scrreprt)             This is correct!
+(scrreprt)             Internally I'm using `fontsize=12pt'.
+(scrreprt)             If you'd like to set the option with \KOMAoptions,
+(scrreprt)             you'd have to use `fontsize=12pt' there
+(scrreprt)             instead of `12pt', too.
+Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 2710.
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrsize12pt.clo
+File: scrsize12pt.clo 2026/02/02 v3.49.2 KOMA-Script font size class option (12
+pt)
+) (C:\Program Files\MiKTeX\tex/latex/koma-script\typearea.sty
+Package: typearea 2026/02/02 v3.49.2 KOMA-Script package (type area)
+\ta@bcor=\skip50
+\ta@div=\count271
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip51
+\ta@vblk=\skip52
+\ta@temp=\skip53
+\footheight=\skip54
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 11
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 434.55125pt
+(typearea)              DIV departure   = -3%
+(typearea)              \evensidemargin = 9.20834pt
+(typearea)              \oddsidemargin  = 9.20834pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 621.0pt
+(typearea)              \topmargin      = -35.32254pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1810.
+)
+\c@part=\count272
+\c@chapter=\count273
+\c@section=\count274
+\c@subsection=\count275
+\c@subsubsection=\count276
+\c@paragraph=\count277
+\c@subparagraph=\count278
+\scr@dte@chapter@maxnumwidth=\skip55
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\chapter on input line 5934.
+\scr@dte@section@maxnumwidth=\skip56
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\section on input line 5945.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\section on input line 5945.
+\scr@dte@part@maxnumwidth=\skip57
+Class scrreprt Info: using compatibility default `afterindent=true'
+(scrreprt)           for `\part on input line 5954.
+\scr@dte@subsection@maxnumwidth=\skip58
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsection on input line 5964.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsection on input line 5964.
+\scr@dte@subsubsection@maxnumwidth=\skip59
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsubsection on input line 5974.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsubsection on input line 5974.
+\scr@dte@paragraph@maxnumwidth=\skip60
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\paragraph on input line 5985.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\paragraph on input line 5985.
+\scr@dte@subparagraph@maxnumwidth=\skip61
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subparagraph on input line 5995.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subparagraph on input line 5995.
+\abovecaptionskip=\skip62
+\belowcaptionskip=\skip63
+\c@pti@nb@sid@b@x=\box54
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 7225.
+\scr@dte@figure@maxnumwidth=\skip64
+\c@figure=\count279
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 7238.
+\scr@dte@table@maxnumwidth=\skip65
+\c@table=\count280
+Class scrreprt Info: Redefining `\numberline' on input line 7409.
+\bibindent=\dimen148
+) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
+) (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip66
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen149
+)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count281
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count282
+\leftroot@=\count283
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count284
+\DOTSCASE@=\count285
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count286
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count287
+\dotsspace@=\muskip17
+\c@parentequation=\count288
+\dspbrk@lvl=\count289
+\tag@help=\toks19
+\row@=\count290
+\column@=\count291
+\maxfields@=\count292
+\andhelp@=\toks20
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks21
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+) (C:\Program Files\MiKTeX\tex/latex/unicode-math\unicode-math.sty (C:\Program 
+Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
+File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count293
+\g__pdfannot_backend_int=\count294
+\g__pdfannot_backend_link_int=\count295
+))
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+(C:\Program Files\MiKTeX\tex/latex/unicode-math\unicode-math-xetex.sty
+Package: unicode-math-xetex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLa
+TeX
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+) (C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
+) (C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.sty
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+(C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
+Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count296
+\l__fontspec_language_int=\count297
+\l__fontspec_strnum_int=\count298
+\l__fontspec_tmp_int=\count299
+\l__fontspec_tmpa_int=\count300
+\l__fontspec_tmpb_int=\count301
+\l__fontspec_tmpc_int=\count302
+\l__fontspec_em_int=\count303
+\l__fontspec_emdef_int=\count304
+\l__fontspec_strong_int=\count305
+\l__fontspec_strongdef_int=\count306
+\l__fontspec_tmpa_dim=\dimen158
+\l__fontspec_tmpb_dim=\dimen159
+\l__fontspec_tmpc_dim=\dimen160
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+) (C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec.cfg))) (C:\Program Files
+\MiKTeX\tex/latex/base\fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+(C:\Program Files\MiKTeX\tex/latex/base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+LaTeX Encoding Info:    Redeclaring text command \capitalcedilla (encoding TS1)
+ on input line 49.
+LaTeX Encoding Info:    Redeclaring text command \capitalogonek (encoding TS1) 
+on input line 52.
+LaTeX Encoding Info:    Redeclaring text command \capitalgrave (encoding TS1) o
+n input line 55.
+LaTeX Encoding Info:    Redeclaring text command \capitalacute (encoding TS1) o
+n input line 56.
+LaTeX Encoding Info:    Redeclaring text command \capitalcircumflex (encoding T
+S1) on input line 57.
+LaTeX Encoding Info:    Redeclaring text command \capitaltilde (encoding TS1) o
+n input line 58.
+LaTeX Encoding Info:    Redeclaring text command \capitaldieresis (encoding TS1
+) on input line 59.
+LaTeX Encoding Info:    Redeclaring text command \capitalhungarumlaut (encoding
+ TS1) on input line 60.
+LaTeX Encoding Info:    Redeclaring text command \capitalring (encoding TS1) on
+ input line 61.
+LaTeX Encoding Info:    Redeclaring text command \capitalcaron (encoding TS1) o
+n input line 62.
+LaTeX Encoding Info:    Redeclaring text command \capitalbreve (encoding TS1) o
+n input line 63.
+LaTeX Encoding Info:    Redeclaring text command \capitalmacron (encoding TS1) 
+on input line 64.
+LaTeX Encoding Info:    Redeclaring text command \capitaldotaccent (encoding TS
+1) on input line 65.
+LaTeX Encoding Info:    Redeclaring text command \t (encoding TS1) on input lin
+e 66.
+LaTeX Encoding Info:    Redeclaring text command \capitaltie (encoding TS1) on 
+input line 67.
+LaTeX Encoding Info:    Redeclaring text command \newtie (encoding TS1) on inpu
+t line 68.
+LaTeX Encoding Info:    Redeclaring text command \capitalnewtie (encoding TS1) 
+on input line 69.
+LaTeX Encoding Info:    Redeclaring text symbol \textcapitalcompwordmark (encod
+ing TS1) on input line 70.
+LaTeX Encoding Info:    Redeclaring text symbol \textascendercompwordmark (enco
+ding TS1) on input line 71.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightbase (encodin
+g TS1) on input line 72.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightdblbase (enco
+ding TS1) on input line 73.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwelveudash (encoding TS1)
+ on input line 74.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequartersemdash (encod
+ing TS1) on input line 75.
+LaTeX Encoding Info:    Redeclaring text symbol \textleftarrow (encoding TS1) o
+n input line 76.
+LaTeX Encoding Info:    Redeclaring text symbol \textrightarrow (encoding TS1) 
+on input line 77.
+LaTeX Encoding Info:    Redeclaring text symbol \textblank (encoding TS1) on in
+put line 78.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollar (encoding TS1) on i
+nput line 79.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotesingle (encoding TS1)
+ on input line 80.
+LaTeX Encoding Info:    Redeclaring text command \textasteriskcentered (encodin
+g TS1) on input line 81.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphen (encoding TS1) o
+n input line 92.
+LaTeX Encoding Info:    Redeclaring text symbol \textfractionsolidus (encoding 
+TS1) on input line 93.
+LaTeX Encoding Info:    Redeclaring text symbol \textzerooldstyle (encoding TS1
+) on input line 94.
+LaTeX Encoding Info:    Redeclaring text symbol \textoneoldstyle (encoding TS1)
+ on input line 95.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwooldstyle (encoding TS1)
+ on input line 96.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreeoldstyle (encoding TS
+1) on input line 97.
+LaTeX Encoding Info:    Redeclaring text symbol \textfouroldstyle (encoding TS1
+) on input line 98.
+LaTeX Encoding Info:    Redeclaring text symbol \textfiveoldstyle (encoding TS1
+) on input line 99.
+LaTeX Encoding Info:    Redeclaring text symbol \textsixoldstyle (encoding TS1)
+ on input line 100.
+LaTeX Encoding Info:    Redeclaring text symbol \textsevenoldstyle (encoding TS
+1) on input line 101.
+LaTeX Encoding Info:    Redeclaring text symbol \texteightoldstyle (encoding TS
+1) on input line 102.
+LaTeX Encoding Info:    Redeclaring text symbol \textnineoldstyle (encoding TS1
+) on input line 103.
+LaTeX Encoding Info:    Redeclaring text symbol \textlangle (encoding TS1) on i
+nput line 104.
+LaTeX Encoding Info:    Redeclaring text symbol \textminus (encoding TS1) on in
+put line 105.
+LaTeX Encoding Info:    Redeclaring text symbol \textrangle (encoding TS1) on i
+nput line 106.
+LaTeX Encoding Info:    Redeclaring text symbol \textmho (encoding TS1) on inpu
+t line 107.
+LaTeX Encoding Info:    Redeclaring text symbol \textbigcircle (encoding TS1) o
+n input line 108.
+LaTeX Encoding Info:    Redeclaring text command \textcircled (encoding TS1) on
+ input line 109.
+LaTeX Encoding Info:    Redeclaring text symbol \textohm (encoding TS1) on inpu
+t line 115.
+LaTeX Encoding Info:    Redeclaring text symbol \textlbrackdbl (encoding TS1) o
+n input line 116.
+LaTeX Encoding Info:    Redeclaring text symbol \textrbrackdbl (encoding TS1) o
+n input line 117.
+LaTeX Encoding Info:    Redeclaring text symbol \textuparrow (encoding TS1) on 
+input line 118.
+LaTeX Encoding Info:    Redeclaring text symbol \textdownarrow (encoding TS1) o
+n input line 119.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciigrave (encoding TS1) 
+on input line 120.
+LaTeX Encoding Info:    Redeclaring text symbol \textborn (encoding TS1) on inp
+ut line 121.
+LaTeX Encoding Info:    Redeclaring text symbol \textdivorced (encoding TS1) on
+ input line 122.
+LaTeX Encoding Info:    Redeclaring text symbol \textdied (encoding TS1) on inp
+ut line 123.
+LaTeX Encoding Info:    Redeclaring text symbol \textleaf (encoding TS1) on inp
+ut line 124.
+LaTeX Encoding Info:    Redeclaring text symbol \textmarried (encoding TS1) on 
+input line 125.
+LaTeX Encoding Info:    Redeclaring text symbol \textmusicalnote (encoding TS1)
+ on input line 126.
+LaTeX Encoding Info:    Redeclaring text symbol \texttildelow (encoding TS1) on
+ input line 127.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphenchar (encoding TS
+1) on input line 128.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciibreve (encoding TS1) 
+on input line 129.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciicaron (encoding TS1) 
+on input line 130.
+LaTeX Encoding Info:    Redeclaring text symbol \textacutedbl (encoding TS1) on
+ input line 131.
+LaTeX Encoding Info:    Redeclaring text symbol \textgravedbl (encoding TS1) on
+ input line 132.
+LaTeX Encoding Info:    Redeclaring text symbol \textdagger (encoding TS1) on i
+nput line 133.
+LaTeX Encoding Info:    Redeclaring text symbol \textdaggerdbl (encoding TS1) o
+n input line 134.
+LaTeX Encoding Info:    Redeclaring text symbol \textbardbl (encoding TS1) on i
+nput line 135.
+LaTeX Encoding Info:    Redeclaring text symbol \textperthousand (encoding TS1)
+ on input line 136.
+LaTeX Encoding Info:    Redeclaring text symbol \textbullet (encoding TS1) on i
+nput line 137.
+LaTeX Encoding Info:    Redeclaring text symbol \textcelsius (encoding TS1) on 
+input line 138.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollaroldstyle (encoding T
+S1) on input line 139.
+LaTeX Encoding Info:    Redeclaring text symbol \textcentoldstyle (encoding TS1
+) on input line 140.
+LaTeX Encoding Info:    Redeclaring text symbol \textflorin (encoding TS1) on i
+nput line 141.
+LaTeX Encoding Info:    Redeclaring text symbol \textcolonmonetary (encoding TS
+1) on input line 142.
+LaTeX Encoding Info:    Redeclaring text symbol \textwon (encoding TS1) on inpu
+t line 143.
+LaTeX Encoding Info:    Redeclaring text symbol \textnaira (encoding TS1) on in
+put line 144.
+LaTeX Encoding Info:    Redeclaring text symbol \textguarani (encoding TS1) on 
+input line 145.
+LaTeX Encoding Info:    Redeclaring text symbol \textpeso (encoding TS1) on inp
+ut line 146.
+LaTeX Encoding Info:    Redeclaring text symbol \textlira (encoding TS1) on inp
+ut line 147.
+LaTeX Encoding Info:    Redeclaring text symbol \textrecipe (encoding TS1) on i
+nput line 148.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobang (encoding TS1)
+ on input line 149.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobangdown (encoding 
+TS1) on input line 150.
+LaTeX Encoding Info:    Redeclaring text symbol \textdong (encoding TS1) on inp
+ut line 151.
+LaTeX Encoding Info:    Redeclaring text symbol \texttrademark (encoding TS1) o
+n input line 152.
+LaTeX Encoding Info:    Redeclaring text symbol \textpertenthousand (encoding T
+S1) on input line 153.
+LaTeX Encoding Info:    Redeclaring text symbol \textpilcrow (encoding TS1) on 
+input line 154.
+LaTeX Encoding Info:    Redeclaring text symbol \textbaht (encoding TS1) on inp
+ut line 155.
+LaTeX Encoding Info:    Redeclaring text symbol \textnumero (encoding TS1) on i
+nput line 156.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiscount (encoding TS1) on
+ input line 157.
+LaTeX Encoding Info:    Redeclaring text symbol \textestimated (encoding TS1) o
+n input line 158.
+LaTeX Encoding Info:    Redeclaring text symbol \textopenbullet (encoding TS1) 
+on input line 159.
+LaTeX Encoding Info:    Redeclaring text symbol \textservicemark (encoding TS1)
+ on input line 160.
+LaTeX Encoding Info:    Redeclaring text symbol \textlquill (encoding TS1) on i
+nput line 161.
+LaTeX Encoding Info:    Redeclaring text symbol \textrquill (encoding TS1) on i
+nput line 162.
+LaTeX Encoding Info:    Redeclaring text symbol \textcent (encoding TS1) on inp
+ut line 163.
+LaTeX Encoding Info:    Redeclaring text symbol \textsterling (encoding TS1) on
+ input line 164.
+LaTeX Encoding Info:    Redeclaring text symbol \textcurrency (encoding TS1) on
+ input line 165.
+LaTeX Encoding Info:    Redeclaring text symbol \textyen (encoding TS1) on inpu
+t line 166.
+LaTeX Encoding Info:    Redeclaring text symbol \textbrokenbar (encoding TS1) o
+n input line 167.
+LaTeX Encoding Info:    Redeclaring text symbol \textsection (encoding TS1) on 
+input line 168.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciidieresis (encoding TS
+1) on input line 169.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyright (encoding TS1) o
+n input line 170.
+LaTeX Encoding Info:    Redeclaring text symbol \textordfeminine (encoding TS1)
+ on input line 171.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyleft (encoding TS1) on
+ input line 172.
+LaTeX Encoding Info:    Redeclaring text symbol \textlnot (encoding TS1) on inp
+ut line 173.
+LaTeX Encoding Info:    Redeclaring text symbol \textcircledP (encoding TS1) on
+ input line 174.
+LaTeX Encoding Info:    Redeclaring text symbol \textregistered (encoding TS1) 
+on input line 175.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciimacron (encoding TS1)
+ on input line 176.
+LaTeX Encoding Info:    Redeclaring text symbol \textdegree (encoding TS1) on i
+nput line 177.
+LaTeX Encoding Info:    Redeclaring text symbol \textpm (encoding TS1) on input
+ line 178.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwosuperior (encoding TS1)
+ on input line 179.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreesuperior (encoding TS
+1) on input line 180.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciiacute (encoding TS1) 
+on input line 181.
+LaTeX Encoding Info:    Redeclaring text symbol \textmu (encoding TS1) on input
+ line 182.
+LaTeX Encoding Info:    Redeclaring text symbol \textparagraph (encoding TS1) o
+n input line 183.
+LaTeX Encoding Info:    Redeclaring text symbol \textperiodcentered (encoding T
+S1) on input line 184.
+LaTeX Encoding Info:    Redeclaring text symbol \textreferencemark (encoding TS
+1) on input line 185.
+LaTeX Encoding Info:    Redeclaring text symbol \textonesuperior (encoding TS1)
+ on input line 186.
+LaTeX Encoding Info:    Redeclaring text symbol \textordmasculine (encoding TS1
+) on input line 187.
+LaTeX Encoding Info:    Redeclaring text symbol \textsurd (encoding TS1) on inp
+ut line 188.
+LaTeX Encoding Info:    Redeclaring text symbol \textonequarter (encoding TS1) 
+on input line 189.
+LaTeX Encoding Info:    Redeclaring text symbol \textonehalf (encoding TS1) on 
+input line 190.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequarters (encoding TS
+1) on input line 191.
+LaTeX Encoding Info:    Redeclaring text symbol \texteuro (encoding TS1) on inp
+ut line 192.
+LaTeX Encoding Info:    Redeclaring text symbol \texttimes (encoding TS1) on in
+put line 193.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiv (encoding TS1) on inpu
+t line 194.
+))
+\g__um_fam_int=\count307
+\g__um_fonts_used_int=\count308
+\l__um_primecount_int=\count309
+\g__um_primekern_muskip=\muskip18
+(C:\Program Files\MiKTeX\tex/latex/unicode-math\unicode-math-table.tex))) (C:\P
+rogram Files\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (C:\Program Files\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)) (C:\Program Files\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count310
+)
+\MT@toks=\toks23
+\MT@tempbox=\box57
+\MT@count=\count311
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks24
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen161
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count312
+(C:\Program Files\MiKTeX\tex/latex/microtype\microtype-xetex.def
+File: microtype-xetex.def 2026/03/01 v3.2d Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
+\MT@outer@space=\skip69
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(C:\Program Files\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip70
+\LTright=\skip71
+\LTpre=\skip72
+\LTpost=\skip73
+\LTchunksize=\count313
+\LTcapwidth=\dimen162
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count314
+\LT@rows=\count315
+\c@LT@tables=\count316
+\c@LT@chunks=\count317
+\LT@p@ftn=\toks25
+)
+Class scrreprt Info: longtable captions redefined on input line 63.
+(C:\Program Files\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen163
+\lightrulewidth=\dimen164
+\cmidrulewidth=\dimen165
+\belowrulesep=\dimen166
+\belowbottomsep=\dimen167
+\aboverulesep=\dimen168
+\abovetopsep=\dimen169
+\cmidrulesep=\dimen170
+\cmidrulekern=\dimen171
+\defaultaddspace=\dimen172
+\@cmidla=\count318
+\@cmidlb=\count319
+\@aboverulesep=\dimen173
+\@belowrulesep=\dimen174
+\@thisruleclass=\count320
+\@lastruleclass=\count321
+\@thisrulewidth=\dimen175
+) (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen176
+\ar@mcellbox=\box63
+\extrarowheight=\dimen177
+\NC@list=\toks26
+\extratabsurround=\skip74
+\backup@length=\skip75
+\ar@cellbox=\box64
+) (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count322
+\calc@Bcount=\count323
+\calc@Adimen=\dimen178
+\calc@Bdimen=\dimen179
+\calc@Askip=\skip76
+\calc@Bskip=\skip77
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count324
+\calc@Cskip=\skip78
+) (C:\Program Files\MiKTeX\tex/latex/footnotehyper\footnotehyper.sty
+Package: footnotehyper 2025/11/15 v1.1f hyperref aware footnote.sty (JFB)
+\FNH@notes=\box65
+\FNH@width=\dimen180
+\FNH@toks=\toks27
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+)
+\Gin@req@height=\dimen181
+\Gin@req@width=\dimen182
+)
+\pandoc@box=\box66
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2026/03/08 v26.4 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count325
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2111.
+\U@D=\dimen183
+\l@unhyphenated=\language79
+(C:\Program Files\MiKTeX\tex/generic/babel\xebabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count326
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4206.
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+) (C:\Program Files\MiKTeX\tex/generic/babel/locale/en\babel-english.tex) (C:\P
+rogram Files\MiKTeX\tex/generic/babel/locale/ru\babel-russian.tex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4330.
+(C:\Program Files\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)
+Package babel Info: Importing data for russian
+(babel)             from babel-ru.ini. Reported on input line 4330.
+) (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+(C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+) (C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (C:\Program Files\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count327
+(C:\Program Files\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip19
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count328
+\c@listtotal=\count329
+\c@listcount=\count330
+\c@liststart=\count331
+\c@liststop=\count332
+\c@citecount=\count333
+\c@citetotal=\count334
+\c@multicitecount=\count335
+\c@multicitetotal=\count336
+\c@instcount=\count337
+\c@maxnames=\count338
+\c@minnames=\count339
+\c@maxitems=\count340
+\c@minitems=\count341
+\c@citecounter=\count342
+\c@maxcitecounter=\count343
+\c@savedcitecounter=\count344
+\c@uniquelist=\count345
+\c@uniquename=\count346
+\c@refsection=\count347
+\c@refsegment=\count348
+\c@maxextratitle=\count349
+\c@maxextratitleyear=\count350
+\c@maxextraname=\count351
+\c@maxextradate=\count352
+\c@maxextraalpha=\count353
+\c@abbrvpenalty=\count354
+\c@highnamepenalty=\count355
+\c@lownamepenalty=\count356
+\c@maxparens=\count357
+\c@parenlevel=\count358
+\blx@tempcnta=\count359
+\blx@tempcntb=\count360
+\blx@tempcntc=\count361
+\c@blx@maxsection=\count362
+\blx@maxsegment@0=\count363
+\blx@notetype=\count364
+\blx@parenlevel@text=\count365
+\blx@parenlevel@foot=\count366
+\blx@sectionciteorder@0=\count367
+\blx@sectionciteorderinternal@0=\count368
+\blx@entrysetcounter=\count369
+\blx@biblioinstance=\count370
+\labelnumberwidth=\skip79
+\labelalphawidth=\skip80
+\biblabelsep=\skip81
+\bibitemsep=\skip82
+\bibnamesep=\skip83
+\bibinitsep=\skip84
+\bibparsep=\skip85
+\bibhang=\skip86
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language80
+\c@mincomprange=\count371
+\c@maxcomprange=\count372
+\c@mincompwidth=\count373
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count374
+\c@savedafterword=\count375
+\c@annotator=\count376
+\c@savedannotator=\count377
+\c@author=\count378
+\c@savedauthor=\count379
+\c@bookauthor=\count380
+\c@savedbookauthor=\count381
+\c@commentator=\count382
+\c@savedcommentator=\count383
+\c@editor=\count384
+\c@savededitor=\count385
+\c@editora=\count386
+\c@savededitora=\count387
+\c@editorb=\count388
+\c@savededitorb=\count389
+\c@editorc=\count390
+\c@savededitorc=\count391
+\c@foreword=\count392
+\c@savedforeword=\count393
+\c@holder=\count394
+\c@savedholder=\count395
+\c@introduction=\count396
+\c@savedintroduction=\count397
+\c@namea=\count398
+\c@savednamea=\count399
+\c@nameb=\count400
+\c@savednameb=\count401
+\c@namec=\count402
+\c@savednamec=\count403
+\c@translator=\count404
+\c@savedtranslator=\count405
+\c@shortauthor=\count406
+\c@savedshortauthor=\count407
+\c@shorteditor=\count408
+\c@savedshorteditor=\count409
+\c@labelname=\count410
+\c@savedlabelname=\count411
+\c@institution=\count412
+\c@savedinstitution=\count413
+\c@lista=\count414
+\c@savedlista=\count415
+\c@listb=\count416
+\c@savedlistb=\count417
+\c@listc=\count418
+\c@savedlistc=\count419
+\c@listd=\count420
+\c@savedlistd=\count421
+\c@liste=\count422
+\c@savedliste=\count423
+\c@listf=\count424
+\c@savedlistf=\count425
+\c@location=\count426
+\c@savedlocation=\count427
+\c@organization=\count428
+\c@savedorganization=\count429
+\c@origlocation=\count430
+\c@savedoriglocation=\count431
+\c@origpublisher=\count432
+\c@savedorigpublisher=\count433
+\c@publisher=\count434
+\c@savedpublisher=\count435
+\c@language=\count436
+\c@savedlanguage=\count437
+\c@origlanguage=\count438
+\c@savedoriglanguage=\count439
+\c@pageref=\count440
+\c@savedpageref=\count441
+\shorthandwidth=\skip87
+\shortjournalwidth=\skip88
+\shortserieswidth=\skip89
+\shorttitlewidth=\skip90
+\shortauthorwidth=\skip91
+\shorteditorwidth=\skip92
+\locallabelnumberwidth=\skip93
+\locallabelalphawidth=\skip94
+\localshorthandwidth=\skip95
+\localshortjournalwidth=\skip96
+\localshortserieswidth=\skip97
+\localshorttitlewidth=\skip98
+\localshortauthorwidth=\skip99
+\localshorteditorwidth=\skip100
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count442
+\c@textcitetotal=\count443
+\c@textcitemaxnames=\count444
+\c@biburlbigbreakpenalty=\count445
+\c@biburlbreakpenalty=\count446
+\c@biburlnumpenalty=\count447
+\c@biburlucpenalty=\count448
+\c@biburllcpenalty=\count449
+\biburlbigskip=\muskip20
+\biburlnumskip=\muskip21
+\biburlucskip=\muskip22
+\biburllcskip=\muskip23
+\c@smartand=\count450
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+(C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+(C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count451
+\c@bbx:relatedtotal=\count452
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+(C:\Program Files\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+(C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2026-01-19 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+(C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+)) (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count453
+\csq@gtype=\count454
+\csq@glevel=\count455
+\csq@qlevel=\count456
+\csq@maxlvl=\count457
+\csq@tshold=\count458
+\csq@ltx@everypar=\toks28
+(C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+(C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)) (C:\Program Files\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count459
+\float@exts=\toks29
+\float@box=\box67
+\@float@everytoks=\toks30
+\@floatcapt=\box68
+) (C:\Program Files\MiKTeX\tex/latex/plex-otf\plex-otf.sty
+Package: plex-otf 2025/01/07 v. 0.11 (Herbert Voss) Supports plex OpenType for 
+lualatex/xelatex.
+(C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Program Files\MiKT
+eX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
+)
+\XKV@depth=\count460
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 1.031719933386987.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 1.010353084575898.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 1.045939856798191.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 1.031719933386987.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-BoldItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bolditalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bolditalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bolditalic scale = 1.020924724969779.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSerif(0)' created for font
+(fontspec)             'IBMPlexSerif' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Ligatures=TeX,Scale=1,Ex
+tension
+(fontspec)             = .otf,UprightFont= *-Regular,BoldFont =
+(fontspec)             *-Bold,ItalicFont = *-Italic,BoldItalicFont =
+(fontspec)             *-BoldItalic,SlantedFont =
+(fontspec)             *-Italic,Scale=0.94,Extension = .otf,SmallCapsFont =
+(fontspec)             texgyretermes-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyretermes-bolditalic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Regular.otf]/OT:script=latn;la
+nguage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1.031719933386987]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Bold.otf]/OT:script=latn;langu
+age=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1.010353084575898]"[texgyretermes-bold.otf]/OT:scr
+ipt=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Italic.otf]/OT:script=latn;lan
+guage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1.045939856798191]"[texgyretermes-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Italic.otf]/OT:script=latn;lan
+guage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->s*[1.031719933386987]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-BoldItalic.otf]/OT:script=latn
+;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1.020924724969779]"[texgyretermes-bolditalic.otf]/
+OT:script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
+(Font)              scaled to size 11.28003pt on input line 152.
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.991118264988408.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 0.9705922739353949.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 1.004778586325143.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.991118264988408.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-BoldItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bolditalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bolditalic scale = 0.9807478845291225.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSerif(1)' created for font
+(fontspec)             'IBMPlexSerif' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,UprightFont= *-Regular,BoldFont =
+(fontspec)             *-Bold,ItalicFont = *-Italic,BoldItalicFont =
+(fontspec)             *-BoldItalic,SlantedFont =
+(fontspec)             *-Italic,Scale=0.94,Extension = .otf,SmallCapsFont =
+(fontspec)             texgyretermes-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyretermes-bolditalic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Regular.otf]/OT:script=latn;la
+nguage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.991118264988408]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Bold.otf]/OT:script=latn;langu
+age=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9705922739353949]"[texgyretermes-bold.otf]/OT:sc
+ript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Italic.otf]/OT:script=latn;lan
+guage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1.004778586325143]"[texgyretermes-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Italic.otf]/OT:script=latn;lan
+guage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->s*[0.991118264988408]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-BoldItalic.otf]/OT:script=latn
+;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9807478845291225]"[texgyretermes-bolditalic.otf]
+/OT:script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/IBMPlexSerif(1)/m/n on input line 15
+2.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/IBMPlexSerif(1)/m/it on input line 
+152.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/IBMPlexSerif(1)/b/n on input line 1
+52.
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.991118264988408.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 0.9705922739353949.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSerif(2)' created for font
+(fontspec)             'IBMPlexSerif' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,FakeSlant = 0.2,UprightFont = *-Regular,BoldFont =
+(fontspec)             *-Bold,Scale=0.94,Extension = .otf,SmallCapsFont =
+(fontspec)             texgyretermes-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyretermes-bolditalic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Regular.otf]/OT:script=latn;la
+nguage=dflt;slant=0.2;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.991118264988408]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;slant=0.2;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Bold.otf]/OT:script=latn;langu
+age=dflt;slant=0.2;+liga;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9705922739353949]"[texgyretermes-bold.otf]/OT:sc
+ript=latn;language=dflt;slant=0.2;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-ExtraLight scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-ExtraLight scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.991118264988408.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-ExtraLightItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 1.004778586325143.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSerif(3)' created for font
+(fontspec)             'IBMPlexSerif' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyretermes-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyretermes-bolditalic},Extension =
+(fontspec)             .otf,UprightFont= *-ExtraLight,ItalicFont =
+(fontspec)             *-ExtraLightItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-ExtraLight.otf]/OT:script=latn
+;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.991118264988408]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-ExtraLightItalic.otf]/OT:scrip
+t=latn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1.004778586325143]"[texgyretermes-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Light scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Light scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.991118264988408.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-LightItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 1.004778586325143.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSerif(4)' created for font
+(fontspec)             'IBMPlexSerif' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyretermes-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyretermes-bolditalic},Extension =
+(fontspec)             .otf,UprightFont= *-Light,ItalicFont = *-LightItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Light.otf]/OT:script=latn;lang
+uage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.991118264988408]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-LightItalic.otf]/OT:script=lat
+n;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1.004778586325143]"[texgyretermes-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Thin scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Thin scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.991118264988408.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-ThinItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 1.004778586325143.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSerif(5)' created for font
+(fontspec)             'IBMPlexSerif' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyretermes-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyretermes-bolditalic},Extension =
+(fontspec)             .otf,UprightFont= *-Thin,ItalicFont = *-ThinItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Thin.otf]/OT:script=latn;langu
+age=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.991118264988408]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-ThinItalic.otf]/OT:script=latn
+;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1.004778586325143]"[texgyretermes-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Medium scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Medium scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.991118264988408.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-MediumItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 1.004778586325143.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSerif(6)' created for font
+(fontspec)             'IBMPlexSerif' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyretermes-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyretermes-bolditalic},Extension =
+(fontspec)             .otf,UprightFont= *-Medium,ItalicFont =
+(fontspec)             *-MediumItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Medium.otf]/OT:script=latn;lan
+guage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.991118264988408]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-MediumItalic.otf]/OT:script=la
+tn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1.004778586325143]"[texgyretermes-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Text scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Text scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.991118264988408.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-TextItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-italic scale = 1.004778586325143.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSerif(7)' created for font
+(fontspec)             'IBMPlexSerif' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyretermes-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyretermes-bolditalic},Extension =
+(fontspec)             .otf,UprightFont= *-Text,ItalicFont = *-TextItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Text.otf]/OT:script=latn;langu
+age=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.991118264988408]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-TextItalic.otf]/OT:script=latn
+;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1.004778586325143]"[texgyretermes-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.991118264988408.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-SemiBold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 0.9705922739353949.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSerif-SemiBoldItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bolditalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bolditalic scale = 0.9807478845291225.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSerif(8)' created for font
+(fontspec)             'IBMPlexSerif' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyretermes-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyretermes-bolditalic},Extension =
+(fontspec)             .otf,UprightFont= *-Regular,BoldFont =
+(fontspec)             *-SemiBold,BoldItalicFont = *-SemiBoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-Regular.otf]/OT:script=latn;la
+nguage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.991118264988408]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-SemiBold.otf]/OT:script=latn;l
+anguage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9705922739353949]"[texgyretermes-bold.otf]/OT:sc
+ript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSerif-SemiBoldItalic.otf]/OT:script=
+latn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9807478845291225]"[texgyretermes-bolditalic.otf]
+/OT:script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-bold scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-BoldItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-bolditalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-bolditalic scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSans(0)' created for font
+(fontspec)             'IBMPlexSans' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Ligatures=TeX,Extension
+(fontspec)             = .otf,UprightFont= *-Regular,BoldFont =
+(fontspec)             *-Bold,ItalicFont = *-Italic,BoldItalicFont =
+(fontspec)             *-BoldItalic,SlantedFont =
+(fontspec)             *-Italic,Scale=0.94,Extension = .otf,SmallCapsFont =
+(fontspec)             texgyreheros-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyreheros-bolditalic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Regular.otf]/OT:script=latn;lan
+guage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Bold.otf]/OT:script=latn;langua
+ge=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-bold.otf]/OT:scr
+ipt=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Italic.otf]/OT:script=latn;lang
+uage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Italic.otf]/OT:script=latn;lang
+uage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-BoldItalic.otf]/OT:script=latn;
+language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-bolditalic.otf]/
+OT:script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-bold scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-BoldItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-bolditalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-bolditalic scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSans(1)' created for font
+(fontspec)             'IBMPlexSans' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,UprightFont= *-Regular,BoldFont =
+(fontspec)             *-Bold,ItalicFont = *-Italic,BoldItalicFont =
+(fontspec)             *-BoldItalic,SlantedFont =
+(fontspec)             *-Italic,Scale=0.94,Extension = .otf,SmallCapsFont =
+(fontspec)             texgyreheros-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyreheros-bolditalic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Regular.otf]/OT:script=latn;lan
+guage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Bold.otf]/OT:script=latn;langua
+ge=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-bold.otf]/OT:scr
+ipt=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Italic.otf]/OT:script=latn;lang
+uage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Italic.otf]/OT:script=latn;lang
+uage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-BoldItalic.otf]/OT:script=latn;
+language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-bolditalic.otf]/
+OT:script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/IBMPlexSans(1)/m/n on input line 21
+1.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/IBMPlexSans(1)/b/n on input line 2
+11.
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-bold scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSans(2)' created for font
+(fontspec)             'IBMPlexSans' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,FakeSlant = 0.2,UprightFont = *-Regular,BoldFont =
+(fontspec)             *-Bold,Scale=0.94,Extension = .otf,SmallCapsFont =
+(fontspec)             texgyreheros-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyreheros-bolditalic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Regular.otf]/OT:script=latn;lan
+guage=dflt;slant=0.2;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-regular.otf]/OT:
+script=latn;language=dflt;slant=0.2;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Bold.otf]/OT:script=latn;langua
+ge=dflt;slant=0.2;+liga;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-bold.otf]/OT:scr
+ipt=latn;language=dflt;slant=0.2;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-ExtraLight scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-ExtraLight scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-ExtraLightItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSans(3)' created for font
+(fontspec)             'IBMPlexSans' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyreheros-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyreheros-bolditalic},Extension =
+(fontspec)             .otf,UprightFont= *-ExtraLight,ItalicFont =
+(fontspec)             *-ExtraLightItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-ExtraLight.otf]/OT:script=latn;
+language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-ExtraLightItalic.otf]/OT:script
+=latn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Light scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Light scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-LightItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSans(4)' created for font
+(fontspec)             'IBMPlexSans' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyreheros-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyreheros-bolditalic},Extension =
+(fontspec)             .otf,UprightFont= *-Light,ItalicFont = *-LightItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Light.otf]/OT:script=latn;langu
+age=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-LightItalic.otf]/OT:script=latn
+;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Thin scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Thin scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-ThinItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSans(5)' created for font
+(fontspec)             'IBMPlexSans' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyreheros-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyreheros-bolditalic},Extension =
+(fontspec)             .otf,UprightFont= *-Thin,ItalicFont = *-ThinItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Thin.otf]/OT:script=latn;langua
+ge=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-ThinItalic.otf]/OT:script=latn;
+language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Medium scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Medium scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-MediumItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSans(6)' created for font
+(fontspec)             'IBMPlexSans' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyreheros-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyreheros-bolditalic},Extension =
+(fontspec)             .otf,UprightFont= *-Medium,ItalicFont =
+(fontspec)             *-MediumItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Medium.otf]/OT:script=latn;lang
+uage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-MediumItalic.otf]/OT:script=lat
+n;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Text scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Text scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-regular scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-TextItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyreheros-italic scale = 0.9000279081125395.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSans(7)' created for font
+(fontspec)             'IBMPlexSans' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyreheros-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyreheros-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyreheros-bolditalic},Extension =
+(fontspec)             .otf,UprightFont= *-Text,ItalicFont = *-TextItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Text.otf]/OT:script=latn;langua
+ge=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-TextItalic.otf]/OT:script=latn;
+language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9000279081125395]"[texgyreheros-italic.otf]/OT:s
+cript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.991118264988408.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-SemiBold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 0.9705922739353949.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSans-SemiBoldItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bolditalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bolditalic scale = 0.9807478845291225.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSans(8)' created for font
+(fontspec)             'IBMPlexSans' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyretermes-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyretermes-bolditalic},Extension =
+(fontspec)             .otf,UprightFont= *-Regular,BoldFont =
+(fontspec)             *-SemiBold,BoldItalicFont = *-SemiBoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-Regular.otf]/OT:script=latn;lan
+guage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.991118264988408]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-SemiBold.otf]/OT:script=latn;la
+nguage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9705922739353949]"[texgyretermes-bold.otf]/OT:sc
+ript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSans-SemiBoldItalic.otf]/OT:script=l
+atn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9807478845291225]"[texgyretermes-bolditalic.otf]
+/OT:script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-BoldItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSansCondensed(0)' created for font
+(fontspec)             'IBMPlexSansCondensed' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,UprightFont= *-Regular,BoldFont =
+(fontspec)             *-Bold,ItalicFont = *-Italic,BoldItalicFont =
+(fontspec)             *-BoldItalic,SlantedFont = *-Italic,Scale=0.94].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-Regular.otf]/OT:script
+=latn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-Bold.otf]/OT:script=la
+tn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-Italic.otf]/OT:script=
+latn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-Italic.otf]/OT:script=
+latn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-BoldItalic.otf]/OT:scr
+ipt=latn;language=dflt;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSansCondensed(1)' created for font
+(fontspec)             'IBMPlexSansCondensed' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,FakeSlant = 0.2,UprightFont = *-Regular,BoldFont =
+(fontspec)             *-Bold,Scale=0.94].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-Regular.otf]/OT:script
+=latn;language=dflt;slant=0.2;+liga;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-Bold.otf]/OT:script=la
+tn;language=dflt;slant=0.2;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-ExtraLight scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-ExtraLight scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-ExtraLightItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSansCondensed(2)' created for font
+(fontspec)             'IBMPlexSansCondensed' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,UprightFont= *-ExtraLight,ItalicFont =
+(fontspec)             *-ExtraLightItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-ExtraLight.otf]/OT:scr
+ipt=latn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-ExtraLightItalic.otf]/
+OT:script=latn;language=dflt;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Light scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Light scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-LightItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSansCondensed(3)' created for font
+(fontspec)             'IBMPlexSansCondensed' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,UprightFont= *-Light,ItalicFont = *-LightItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-Light.otf]/OT:script=l
+atn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-LightItalic.otf]/OT:sc
+ript=latn;language=dflt;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Thin scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Thin scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-ThinItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSansCondensed(4)' created for font
+(fontspec)             'IBMPlexSansCondensed' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,UprightFont= *-Thin,ItalicFont = *-ThinItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-Thin.otf]/OT:script=la
+tn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-ThinItalic.otf]/OT:scr
+ipt=latn;language=dflt;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Medium scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Medium scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-MediumItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSansCondensed(5)' created for font
+(fontspec)             'IBMPlexSansCondensed' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,UprightFont= *-Medium,ItalicFont =
+(fontspec)             *-MediumItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-Medium.otf]/OT:script=
+latn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-MediumItalic.otf]/OT:s
+cript=latn;language=dflt;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Text scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Text scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-TextItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSansCondensed(6)' created for font
+(fontspec)             'IBMPlexSansCondensed' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,UprightFont= *-Text,ItalicFont = *-TextItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-Text.otf]/OT:script=la
+tn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-TextItalic.otf]/OT:scr
+ipt=latn;language=dflt;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.991118264988408.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-SemiBold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 0.9705922739353949.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexSansCondensed-SemiBoldItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bolditalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bolditalic scale = 0.9807478845291225.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexSansCondensed(7)' created for font
+(fontspec)             'IBMPlexSansCondensed' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyretermes-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyretermes-bolditalic},Extension =
+(fontspec)             .otf,UprightFont= *-Regular,BoldFont =
+(fontspec)             *-SemiBold,BoldItalicFont = *-SemiBoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-Regular.otf]/OT:script
+=latn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.991118264988408]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-SemiBold.otf]/OT:scrip
+t=latn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9705922739353949]"[texgyretermes-bold.otf]/OT:sc
+ript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexSansCondensed-SemiBoldItalic.otf]/OT
+:script=latn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9807478845291225]"[texgyretermes-bolditalic.otf]
+/OT:script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-BoldItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMono(0)' created for font
+(fontspec)             'IBMPlexMono' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,WordSpace={1,0,0},Hyphen
+Char=None,PunctuationSpace=WordSpace,Extension
+(fontspec)             = .otf,UprightFont= *-Regular,BoldFont =
+(fontspec)             *-Bold,ItalicFont = *-Italic,BoldItalicFont =
+(fontspec)             *-BoldItalic,SlantedFont =
+(fontspec)             *-Italic,Scale=MatchLowercase,FakeStretch=0.9].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Regular.otf]/OT:script=latn;lan
+guage=dflt;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Bold.otf]/OT:script=latn;langua
+ge=dflt;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Italic.otf]/OT:script=latn;lang
+uage=dflt;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Italic.otf]/OT:script=latn;lang
+uage=dflt;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-BoldItalic.otf]/OT:script=latn;
+language=dflt;extend=0.9;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Italic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-BoldItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMono(1)' created for font
+(fontspec)             'IBMPlexMono' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,UprightFont= *-Regular,BoldFont =
+(fontspec)             *-Bold,ItalicFont = *-Italic,BoldItalicFont =
+(fontspec)             *-BoldItalic,SlantedFont =
+(fontspec)             *-Italic,Scale=MatchLowercase,FakeStretch=0.9].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Regular.otf]/OT:script=latn;lan
+guage=dflt;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Bold.otf]/OT:script=latn;langua
+ge=dflt;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Italic.otf]/OT:script=latn;lang
+uage=dflt;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Italic.otf]/OT:script=latn;lang
+uage=dflt;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-BoldItalic.otf]/OT:script=latn;
+language=dflt;extend=0.9;+liga;mapping=tex-text;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/IBMPlexMono(1)/m/n on input line 33
+0.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/IBMPlexMono(1)/b/n on input line 33
+0.
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMono(2)' created for font
+(fontspec)             'IBMPlexMono' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,FakeSlant = 0.2,UprightFont = *-Regular,BoldFont =
+(fontspec)             *-Bold,Scale=MatchLowercase,FakeStretch=0.9].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Regular.otf]/OT:script=latn;lan
+guage=dflt;slant=0.2;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Bold.otf]/OT:script=latn;langua
+ge=dflt;slant=0.2;extend=0.9;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-ExtraLight scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-ExtraLight scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-ExtraLightItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMono(3)' created for font
+(fontspec)             'IBMPlexMono' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,UprightFont= *-ExtraLight,ItalicFont =
+(fontspec)             *-ExtraLightItalic,Scale=MatchLowercase,FakeStretch=0.9]
+.
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-ExtraLight.otf]/OT:script=latn;
+language=dflt;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-ExtraLightItalic.otf]/OT:script
+=latn;language=dflt;extend=0.9;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Light scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Light scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-LightItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMono(4)' created for font
+(fontspec)             'IBMPlexMono' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,UprightFont= *-Light,ItalicFont =
+(fontspec)             *-LightItalic,Scale=MatchLowercase,FakeStretch=0.9].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Light.otf]/OT:script=latn;langu
+age=dflt;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-LightItalic.otf]/OT:script=latn
+;language=dflt;extend=0.9;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Thin scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Thin scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-ThinItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMono(5)' created for font
+(fontspec)             'IBMPlexMono' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,UprightFont= *-Thin,ItalicFont =
+(fontspec)             *-ThinItalic,Scale=MatchLowercase,FakeStretch=0.9].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Thin.otf]/OT:script=latn;langua
+ge=dflt;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-ThinItalic.otf]/OT:script=latn;
+language=dflt;extend=0.9;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Medium scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Medium scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-MediumItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMono(6)' created for font
+(fontspec)             'IBMPlexMono' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,UprightFont= *-Medium,ItalicFont =
+(fontspec)             *-MediumItalic,Scale=MatchLowercase,FakeStretch=0.9].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Medium.otf]/OT:script=latn;lang
+uage=dflt;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-MediumItalic.otf]/OT:script=lat
+n;language=dflt;extend=0.9;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Text scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Text scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-TextItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMono(7)' created for font
+(fontspec)             'IBMPlexMono' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,UprightFont= *-Text,ItalicFont =
+(fontspec)             *-TextItalic,Scale=MatchLowercase,FakeStretch=0.9].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Text.otf]/OT:script=latn;langua
+ge=dflt;extend=0.9;+liga;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-TextItalic.otf]/OT:script=latn;
+language=dflt;extend=0.9;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-Regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-regular scale = 0.991118264988408.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-SemiBold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bold scale = 0.9705922739353949.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMono-SemiBoldItalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bolditalic scale = 0.94.
+
+
+Package fontspec Info: 
+(fontspec)             texgyretermes-bolditalic scale = 0.9807478845291225.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMono(8)' created for font
+(fontspec)             'IBMPlexMono' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,Extension =
+(fontspec)             .otf,UprightFont= *-Regular,BoldFont =
+(fontspec)             *-SemiBold,BoldItalicFont =
+(fontspec)             *-SemiBoldItalic,Scale=0.94,Extension =
+(fontspec)             .otf,SmallCapsFont =
+(fontspec)             texgyretermes-regular,SmallCapsFeatures =
+(fontspec)             {Letters=SmallCaps, ,
+(fontspec)             Scale=MatchUppercase},BoldFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-bold},ItalicFeatures = {
+(fontspec)             SmallCapsFont=texgyretermes-italic},BoldItalicFeatures=
+(fontspec)             { SmallCapsFont=texgyretermes-bolditalic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-Regular.otf]/OT:script=latn;lan
+guage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.991118264988408]"[texgyretermes-regular.otf]/OT:
+script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-SemiBold.otf]/OT:script=latn;la
+nguage=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9705922739353949]"[texgyretermes-bold.otf]/OT:sc
+ript=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.94]"[IBMPlexMono-SemiBoldItalic.otf]/OT:script=l
+atn;language=dflt;+liga;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[0.9807478845291225]"[texgyretermes-bolditalic.otf]
+/OT:script=latn;language=dflt;+liga;+smcp;mapping=tex-text;"
+
+LaTeX Font Info:    Redeclaring math version `normal' on input line 382.
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMath-Regular.otf(0)' created for
+(fontspec)             font 'IBMPlexMath-Regular.otf' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,BoldItalicFont={},Italic
+Font={},SmallCapsFont={},Script=Math].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[IBMPlexMath-Regular.otf]/OT:script=math;language=df
+lt;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMath-Regular.otf(1)' created for
+(fontspec)             font 'IBMPlexMath-Regular.otf' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,BoldItalicFont={},Italic
+Font={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.9-},{Size=6.9-9.9,Fo
+nt=IBMPlexMath-Regular.otf,Style=MathScript},{Size=-6.9,Font=IBMPlexMath-Regula
+r.otf,Style=MathScriptScript}}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.9->"[IBMPlexMath-Regular.otf]/OT:script=math;language
+=dflt;+liga;mapping=tex-text;"<6.9-9.9>"[IBMPlexMath-Regular.otf]/OT:script=mat
+h;language=dflt;+liga;+ssty=0;mapping=tex-text;"<-6.9>"[IBMPlexMath-Regular.otf
+]/OT:script=math;language=dflt;+liga;+ssty=1;mapping=tex-text;"
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 382.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/IBMPlexMath-Regular.otf(1)/m/n on in
+put line 382.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 382.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/IBMPlexMath-Regular.otf(1)/b/n on i
+nput line 382.
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMath-Regular.otf(2)' created for
+(fontspec)             font 'IBMPlexMath-Regular.otf' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,BoldItalicFont={},Italic
+Font={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.9-},{Size=6.9-9.9,Fo
+nt=IBMPlexMath-Regular.otf,Style=MathScript},{Size=-6.9,Font=IBMPlexMath-Regula
+r.otf,Style=MathScriptScript}},ScaleAgain=1.0001,FontAdjustment={\fontdimen
+(fontspec)             8\font =9.288pt\relax \fontdimen 9\font =6.192pt\relax
+(fontspec)             \fontdimen 10\font =6.192pt\relax \fontdimen 11\font
+(fontspec)             =8.376pt\relax \fontdimen 12\font =5.58pt\relax
+(fontspec)             \fontdimen 13\font =5.724pt\relax \fontdimen 14\font
+(fontspec)             =5.724pt\relax \fontdimen 15\font =4.296pt\relax
+(fontspec)             \fontdimen 16\font =2.4pt\relax \fontdimen 17\font
+(fontspec)             =2.4pt\relax \fontdimen 18\font =2.652pt\relax
+(fontspec)             \fontdimen 19\font =1.26pt\relax \fontdimen 22\font
+(fontspec)             =3.144pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.9->s*[1.0001]"[IBMPlexMath-Regular.otf]/OT:script=mat
+h;language=dflt;+liga;mapping=tex-text;"<6.9-9.9>s*[1.0001]"[IBMPlexMath-Regula
+r.otf]/OT:script=math;language=dflt;+liga;+ssty=0;mapping=tex-text;"<-6.9>s*[1.
+0001]"[IBMPlexMath-Regular.otf]/OT:script=math;language=dflt;+liga;+ssty=1;mapp
+ing=tex-text;"
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 382.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> TU/IBMPlexMath-Regular.otf(2)/m/n on i
+nput line 382.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 382.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/IBMPlexMath-Regular.otf(2)/b/n on i
+nput line 382.
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMath-Regular.otf(3)' created for
+(fontspec)             font 'IBMPlexMath-Regular.otf' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,BoldItalicFont={},Italic
+Font={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.9-},{Size=6.9-9.9,Fo
+nt=IBMPlexMath-Regular.otf,Style=MathScript},{Size=-6.9,Font=IBMPlexMath-Regula
+r.otf,Style=MathScriptScript}},ScaleAgain=0.9999,FontAdjustment={\fontdimen
+(fontspec)             8\font =0.792pt\relax \fontdimen 9\font =1.584pt\relax
+(fontspec)             \fontdimen 10\font =1.584pt\relax \fontdimen 11\font
+(fontspec)             =1.98pt\relax \fontdimen 12\font =7.02pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.9->s*[0.9999]"[IBMPlexMath-Regular.otf]/OT:script=mat
+h;language=dflt;+liga;mapping=tex-text;"<6.9-9.9>s*[0.9999]"[IBMPlexMath-Regula
+r.otf]/OT:script=math;language=dflt;+liga;+ssty=0;mapping=tex-text;"<-6.9>s*[0.
+9999]"[IBMPlexMath-Regular.otf]/OT:script=math;language=dflt;+liga;+ssty=1;mapp
+ing=tex-text;"
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 3
+82.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> TU/IBMPlexMath-Regular.otf(3)/m/n on i
+nput line 382.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 382
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/IBMPlexMath-Regular.otf(3)/b/n on i
+nput line 382.
+LaTeX Font Info:    Redeclaring math version `bold' on input line 383.
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMath-Regular.otf(4)' created for
+(fontspec)             font 'IBMPlexMath-Regular.otf' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,BoldItalicFont={},Italic
+Font={},SmallCapsFont={},Script=Math,FakeBold={3}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[IBMPlexMath-Regular.otf]/OT:script=math;language=df
+lt;embolden=3;+liga;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMath-Regular.otf(5)' created for
+(fontspec)             font 'IBMPlexMath-Regular.otf' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,BoldItalicFont={},Italic
+Font={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.9-},{Size=6.9-9.9,Fo
+nt=IBMPlexMath-Regular.otf,Style=MathScript},{Size=-6.9,Font=IBMPlexMath-Regula
+r.otf,Style=MathScriptScript}},FakeBold={3}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.9->"[IBMPlexMath-Regular.otf]/OT:script=math;language
+=dflt;embolden=3;+liga;mapping=tex-text;"<6.9-9.9>"[IBMPlexMath-Regular.otf]/OT
+:script=math;language=dflt;embolden=3;+liga;+ssty=0;mapping=tex-text;"<-6.9>"[I
+BMPlexMath-Regular.otf]/OT:script=math;language=dflt;embolden=3;+liga;+ssty=1;m
+apping=tex-text;"
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 383.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/m/n --> TU/IBMPlexMath-Regular.otf(5)/m/n on in
+put line 383.
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMath-Regular.otf(6)' created for
+(fontspec)             font 'IBMPlexMath-Regular.otf' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,BoldItalicFont={},Italic
+Font={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.9-},{Size=6.9-9.9,Fo
+nt=IBMPlexMath-Regular.otf,Style=MathScript},{Size=-6.9,Font=IBMPlexMath-Regula
+r.otf,Style=MathScriptScript}},FakeBold={3},ScaleAgain=1.0001,FontAdjustment={\
+fontdimen
+(fontspec)             8\font =9.288pt\relax \fontdimen 9\font =6.192pt\relax
+(fontspec)             \fontdimen 10\font =6.192pt\relax \fontdimen 11\font
+(fontspec)             =8.376pt\relax \fontdimen 12\font =5.58pt\relax
+(fontspec)             \fontdimen 13\font =5.724pt\relax \fontdimen 14\font
+(fontspec)             =5.724pt\relax \fontdimen 15\font =4.296pt\relax
+(fontspec)             \fontdimen 16\font =2.4pt\relax \fontdimen 17\font
+(fontspec)             =2.4pt\relax \fontdimen 18\font =2.652pt\relax
+(fontspec)             \fontdimen 19\font =1.26pt\relax \fontdimen 22\font
+(fontspec)             =3.144pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.9->s*[1.0001]"[IBMPlexMath-Regular.otf]/OT:script=mat
+h;language=dflt;embolden=3;+liga;mapping=tex-text;"<6.9-9.9>s*[1.0001]"[IBMPlex
+Math-Regular.otf]/OT:script=math;language=dflt;embolden=3;+liga;+ssty=0;mapping
+=tex-text;"<-6.9>s*[1.0001]"[IBMPlexMath-Regular.otf]/OT:script=math;language=d
+flt;embolden=3;+liga;+ssty=1;mapping=tex-text;"
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 383.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/m/n --> TU/IBMPlexMath-Regular.otf(6)/m/n on i
+nput line 383.
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             IBMPlexMath-Regular scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'IBMPlexMath-Regular.otf(7)' created for
+(fontspec)             font 'IBMPlexMath-Regular.otf' with options
+(fontspec)             [Ligatures=TeX,Ligatures=Common,BoldItalicFont={},Italic
+Font={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.9-},{Size=6.9-9.9,Fo
+nt=IBMPlexMath-Regular.otf,Style=MathScript},{Size=-6.9,Font=IBMPlexMath-Regula
+r.otf,Style=MathScriptScript}},FakeBold={3},ScaleAgain=0.9999,FontAdjustment={\
+fontdimen
+(fontspec)             8\font =0.792pt\relax \fontdimen 9\font =1.584pt\relax
+(fontspec)             \fontdimen 10\font =1.584pt\relax \fontdimen 11\font
+(fontspec)             =1.98pt\relax \fontdimen 12\font =7.02pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.9->s*[0.9999]"[IBMPlexMath-Regular.otf]/OT:script=mat
+h;language=dflt;embolden=3;+liga;mapping=tex-text;"<6.9-9.9>s*[0.9999]"[IBMPlex
+Math-Regular.otf]/OT:script=math;language=dflt;embolden=3;+liga;+ssty=0;mapping
+=tex-text;"<-6.9>s*[0.9999]"[IBMPlexMath-Regular.otf]/OT:script=math;language=d
+flt;embolden=3;+liga;+ssty=1;mapping=tex-text;"
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 383
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> TU/IBMPlexMath-Regular.otf(7)/m/n on i
+nput line 383.
+LaTeX Info: Redefining \textsl on input line 392.
+LaTeX Info: Redefining \slshape on input line 393.
+) (C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+Package tocbasic Info: Loading of class-dependent code for package caption3
+(tocbasic)             prevented on line 50.
+
+(C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen184
+\captionmargin=\dimen185
+\caption@leftmargin=\dimen186
+\caption@rightmargin=\dimen187
+\caption@width=\dimen188
+\caption@indent=\dimen189
+\caption@parindent=\dimen190
+\caption@hangindent=\dimen191
+)
+\c@caption@flags=\count461
+\c@continuedfloat=\count462
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+(C:\Program Files\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+\@float@every@codelisting=\toks33
+\c@codelisting=\count463
+(C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count464
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count465
+) (C:\Program Files\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+(C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+(C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count466
+) (C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen192
+\Hy@linkcounter=\count467
+\Hy@pagecounter=\count468
+(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+) (C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count469
+(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 3166.
+Package hyperref Info: Option `unicode' set `true' on input line 4072.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count470
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen193
+(C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count471
+\Field@Width=\dimen194
+\Fld@charsize=\dimen195
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count472
+\c@Item=\count473
+\c@Hfootnote=\count474
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
+\pdfm@box=\box69
+\c@Hy@AnnotLevel=\count475
+\HyField@AnnotCount=\count476
+\Fld@listcount=\count477
+\c@bookmark@seq@number=\count478
+(C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+(C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip101
+) (C:\Program Files\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.def
+File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
+\BKM@id=\count479
+)) (C:\Program Files\MiKTeX\tex/latex/xurl\xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+xurl: Set penalties for biblatex
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'russian'.
+No file report.aux.
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Info: Redefining \microtypecontext on input line 190.
+Package microtype Info: Applying patch `item' on input line 190.
+Package microtype Info: Applying patch `toc' on input line 190.
+Package microtype Info: Applying patch `eqnum' on input line 190.
+Package microtype Info: Applying patch `footnote' on input line 190.
+Package microtype Info: Applying patch `verbatim' on input line 190.
+LaTeX Info: Redefining \microtypesetup on input line 190.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `IBMPlexSerif' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'russian'...
+Package biblatex Info: ... file 'russian.lbx' found.
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\russian.lbx
+File: russian.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `report.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'report.bbl' not found.
+No file report.bbl.
+Package biblatex Info: Reference section=0 on input line 190.
+Package biblatex Info: Reference segment=0 on input line 190.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 190.
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 11.28003pt on input line 192.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `IBMPlexSans' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/b/n' will be
+(Font)              scaled to size 11.28003pt on input line 192.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/b/n' will be
+(Font)              scaled to size 23.38725pt on input line 192.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/b/n' will be
+(Font)              scaled to size 13.53603pt on input line 192.
+LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
+(Font)              scaled to size 16.24324pt on input line 192.
+LaTeX Font Info:    Font shape `TU/IBMPlexMath-Regular.otf(2)/m/n' will be
+(Font)              scaled to size 17.28183pt on input line 192.
+LaTeX Font Info:    Font shape `TU/IBMPlexMath-Regular.otf(2)/m/n' will be
+(Font)              scaled to size 12.00128pt on input line 192.
+LaTeX Font Info:    Font shape `TU/IBMPlexMath-Regular.otf(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 192.
+LaTeX Font Info:    Font shape `TU/IBMPlexMath-Regular.otf(3)/m/n' will be
+(Font)              scaled to size 17.27815pt on input line 192.
+LaTeX Font Info:    Font shape `TU/IBMPlexMath-Regular.otf(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 192.
+LaTeX Font Info:    Font shape `TU/IBMPlexMath-Regular.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 192.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 192
+.
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (C:\Program Files\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 192
+.
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (C:\Program Files\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [1
+
+
+
+]
+Package tocbasic Info: character protrusion at toc deactivated on input line 19
+6.
+No file report.toc.
+\tf@toc=\write4
+\openout4 = `report.toc'.
+
+[2
+
+]
+chapter 1.
+[3
+
+]
+chapter 2.
+[4
+
+]
+chapter 3.
+LaTeX Font Info:    Font shape `TU/IBMPlexMath-Regular.otf(2)/m/n' will be
+(Font)              scaled to size 7.80083pt on input line 227.
+LaTeX Font Info:    Font shape `TU/IBMPlexMath-Regular.otf(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 227.
+LaTeX Font Info:    Font shape `TU/IBMPlexMath-Regular.otf(3)/m/n' will be
+(Font)              scaled to size 7.79916pt on input line 227.
+LaTeX Font Info:    Font shape `TU/IBMPlexMath-Regular.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 227.
+Missing character: There is no н in font cmmi12!
+Missing character: There is no а in font cmmi12!
+Missing character: There is no т in font cmmi12!
+Missing character: There is no у in font cmmi12!
+Missing character: There is no р in font cmmi12!
+Missing character: There is no а in font cmmi12!
+Missing character: There is no л in font cmmi12!
+Missing character: There is no ь in font cmmi12!
+Missing character: There is no н in font cmmi12!
+Missing character: There is no о in font cmmi12!
+Missing character: There is no е in font cmmi12!
+Missing character: There is no ч in font cmmi12!
+Missing character: There is no и in font cmmi12!
+Missing character: There is no с in font cmmi12!
+Missing character: There is no л in font cmmi12!
+Missing character: There is no о in font cmmi12!
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/b/n' will be
+(Font)              scaled to size 16.24324pt on input line 231.
+LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/it' will be
+(Font)              scaled to size 11.28003pt on input line 245.
+
+! LaTeX Error: Math alphabet identifier \mathrm  is undefined in math version `
+normal'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247   Присвоить \(w_j = (u_j + v_j + k) \pmod{b}
+                                                  \), где
+Your requested math alphabet is undefined in the current math version.
+Check the spelling or use the \SetMathAlphabet  command.
+
+ 
+Here is how much of TeX's memory you used:
+ 33162 strings out of 402982
+ 656276 string characters out of 5452808
+ 1855949 words of memory out of 5000000
+ 61382 multiletter control sequences out of 15000+600000
+ 634948 words of font info for 206 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 108i,7n,131p,11230b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on report.pdf (4 pages).
