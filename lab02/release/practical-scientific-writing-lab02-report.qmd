@@ -1,0 +1,151 @@
+---
+## Author
+author:
+  name: хамза хуссен
+  degrees: Магистратура
+  orcid: 0000-0000-0000-0000
+  email:
+  affiliation:
+    - name: Российский университет дружбы народов
+      country: Российская Федерация
+      postal-code: 117198
+      city: Москва
+      address: ул. Миклухо-Маклая, д. 6
+
+## Title
+title: "Отчёт по лабораторной работе №2"
+subtitle: "Computer Skills for Scientific Writing"
+license: "CC BY"
+
+keywords: [лабораторная работа, шаблон, Markdown, Pandoc, LaTeX, Quarto, Git, GitVerse, SourceCraft, Git Flow, GPG]
+---
+
+# Введение
+
+## Цель работы
+
+Подготовить рабочее окружение для выполнения лабораторных работ.
+
+**Основные задачи:**
+
+- Настроить Git, SSH и PGP
+- Подготовить GitVerse и SourceCraft
+- Установить необходимые инструменты
+- Создать рабочее пространство курса
+- Настроить Git Flow и создать релиз
+
+# Выполнение работы
+
+## Настройка Git, SSH и PGP
+
+- Настроен Git
+- Создан SSH-ключ для GitVerse и SourceCraft
+- Создан PGP-ключ
+- Настроено автоматическое подписание коммитов
+
+```bash
+git config --global commit.gpgsign true
+```
+
+## Установка инструментов
+
+Подготовлены основные инструменты:
+
+- Git Flow
+- Node.js
+- Quarto
+- TeX Live / MacTeX
+- Commitizen
+- standard-changelog
+
+Среда: **macOS + Homebrew**
+
+## Рабочее пространство
+
+Создан репозиторий:
+
+```text
+2026-2-study-practical-scientific-writing
+```
+
+Подготовлена структура курса:
+
+```bash
+echo practical-scientific-writing > COURSE
+make prepare
+```
+
+Репозиторий размещён в:
+
+- GitVerse
+- SourceCraft
+
+## Git Flow
+
+Git Flow инициализирован командой:
+
+```bash
+git flow init
+```
+
+Основные ветки:
+
+```text
+master
+develop
+```
+
+Создана ветка релиза:
+
+```bash
+git flow release start 1.0.0
+```
+
+## Первый релиз
+
+Сформирован журнал изменений:
+
+```bash
+standard-changelog --first-release
+```
+
+Релиз завершён:
+
+```bash
+git flow release finish 1.0.0
+```
+
+Создан тег:
+
+```text
+v1.0.0
+```
+
+Ветки и теги отправлены в удалённые репозитории.
+
+# Результаты
+
+## Результаты работы
+
+В результате:
+
+- подготовлено рабочее окружение;
+- настроены Git, SSH и PGP;
+- настроены GitVerse и SourceCraft;
+- установлены Quarto и TeX Live;
+- настроен Git Flow;
+- создан первый релиз `v1.0.0`.
+
+# Заключение
+
+## Главный вывод
+
+Рабочее окружение для курса  
+**Computer Skills for Scientific Writing** подготовлено.
+
+Настроенные инструменты позволяют:
+
+- вести историю изменений;
+- подписывать коммиты;
+- работать с удалёнными репозиториями;
+- создавать версии и релизы.
