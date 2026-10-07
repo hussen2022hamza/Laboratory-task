@@ -70,7 +70,7 @@
 
 - [Рабочий репозиторий] (<https://github.com/hussen2022hamza/Laboratory-task>)
 
-- [Релиз v9.0.0] (<https://github.com/hussen2022hamza/Laboratory-task/releases/tag/v9.0.0>)
+- [Релиз v9.0.0] (<https://github.com/hussen2022hamza/Laboratory-task/releases/tag/v2.0.0>)
 
 
 
